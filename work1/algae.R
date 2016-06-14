@@ -2,7 +2,6 @@
 ### Loading the Data into R
 ###################################################
 library(DMwR)
-#head(algae)
 setwd("D:\\R\\datamining1\\")
 algae <- read.table('Analysis.txt',
           header=F,
